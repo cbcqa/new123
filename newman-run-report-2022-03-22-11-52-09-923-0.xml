@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="HRM Copy" tests="28" time="13.448">
+  <testsuite name="Get Access Token" id="d93dcbfa-7b28-47f4-a332-cfaaf31f45bf" timestamp="2022-03-22T11:51:53.703Z" tests="1" failures="0" errors="0" time="0.369">
+    <testcase name="Schema is valid" time="0.369" classname="HrmCopy"/>
+  </testsuite>
+  <testsuite name="http://122.255.63.41/hrm/exchangeOffice/list" id="47497de4-2dd9-4e18-bc09-368c7d7e85b5" timestamp="2022-03-22T11:51:53.703Z" tests="8" failures="0" errors="0" time="0.135">
+    <testcase name="Status code is 200" time="0.135" classname="HrmCopy"/>
+    <testcase name="Validate user details through pass using API" time="0.135" classname="HrmCopy"/>
+    <testcase name="Validate exchange office details" time="0.135" classname="HrmCopy"/>
+    <testcase name="View description status" time="0.135" classname="HrmCopy"/>
+    <testcase name="Response property matches environment variable" time="0.135" classname="HrmCopy"/>
+    <testcase name="Content-Type header is application/json" time="0.135" classname="HrmCopy"/>
+    <testcase name="The responce has all properties" time="0.135" classname="HrmCopy"/>
+    <testcase name="Schema is valid" time="0.135" classname="HrmCopy"/>
+  </testsuite>
+  <testsuite name="http://122.255.63.41/hrm/exchangeOffice/list Copy" id="63579139-7b21-4116-9030-88d7d108e050" timestamp="2022-03-22T11:51:53.703Z" tests="8" failures="0" errors="0" time="0.091">
+    <testcase name="Status code is 200" time="0.091" classname="HrmCopy"/>
+    <testcase name="Validate user details through pass using API" time="0.091" classname="HrmCopy"/>
+    <testcase name="Validate exchange office details" time="0.091" classname="HrmCopy"/>
+    <testcase name="View description status" time="0.091" classname="HrmCopy"/>
+    <testcase name="Response property matches environment variable" time="0.091" classname="HrmCopy"/>
+    <testcase name="Content-Type header is application/json" time="0.091" classname="HrmCopy"/>
+    <testcase name="The responce has all properties" time="0.091" classname="HrmCopy"/>
+    <testcase name="Schema is valid" time="0.091" classname="HrmCopy"/>
+  </testsuite>
+  <testsuite name="http://122.255.63.41/hrm/department/list/94" id="1e135347-d9c9-4655-b44f-42f0bd9d0641" timestamp="2022-03-22T11:51:53.703Z" tests="7" failures="0" errors="0" time="0.070">
+    <testcase name="Status code is 200" time="0.070" classname="HrmCopy"/>
+    <testcase name="Validate user details through pass using API" time="0.070" classname="HrmCopy"/>
+    <testcase name="View description status" time="0.070" classname="HrmCopy"/>
+    <testcase name="Response property matches environment variable" time="0.070" classname="HrmCopy"/>
+    <testcase name="Content-Type header is application/json" time="0.070" classname="HrmCopy"/>
+    <testcase name="The responce has all properties" time="0.070" classname="HrmCopy"/>
+    <testcase name="Schema is valid" time="0.070" classname="HrmCopy"/>
+  </testsuite>
+  <testsuite name="http://122.255.63.41/hrm/specialLocation/id/{0103}" id="69ccd156-1324-40ea-97ff-bd002b20b75a" timestamp="2022-03-22T11:51:53.703Z" tests="8" failures="0" errors="0" time="0.074">
+    <testcase name="Status code is 200" time="0.074" classname="HrmCopy"/>
+    <testcase name="Validate user details through pass using API" time="0.074" classname="HrmCopy"/>
+    <testcase name="View the location details " time="0.074" classname="HrmCopy"/>
+    <testcase name="View description status" time="0.074" classname="HrmCopy"/>
+    <testcase name="Response property matches environment variable" time="0.074" classname="HrmCopy"/>
+    <testcase name="Content-Type header is application/json" time="0.074" classname="HrmCopy"/>
+    <testcase name="The responce has all properties" time="0.074" classname="HrmCopy"/>
+    <testcase name="Schema is valid" time="0.074" classname="HrmCopy"/>
+  </testsuite>
+  <testsuite name=" {{domain}}/hrm/employee/history/transfer/{employeeId}" id="e5385070-05f2-486e-af44-fe4e5fb1c636" timestamp="2022-03-22T11:51:53.703Z" tests="7" failures="0" errors="0" time="0.144">
+    <testcase name="Status code is 200" time="0.144" classname="HrmCopy"/>
+    <testcase name="Validate user details through pass using API" time="0.144" classname="HrmCopy"/>
+    <testcase name="View discription status" time="0.144" classname="HrmCopy"/>
+    <testcase name="Response property matches environment variable" time="0.144" classname="HrmCopy"/>
+    <testcase name="Content-Type header is application/json" time="0.144" classname="HrmCopy"/>
+    <testcase name="The responce has all properties" time="0.144" classname="HrmCopy"/>
+    <testcase name="Schema is valid" time="0.144" classname="HrmCopy"/>
+  </testsuite>
+  <testsuite name="http://122.255.63.41/hrm/branch/list" id="12356fcb-83db-45f4-9485-d396ad7f6f35" timestamp="2022-03-22T11:51:53.703Z" tests="8" failures="0" errors="0" time="0.187">
+    <testcase name="Status code is 200" time="0.187" classname="HrmCopy"/>
+    <testcase name="Validate user details through pass using API" time="0.187" classname="HrmCopy"/>
+    <testcase name="Check data accuracy using Description" time="0.187" classname="HrmCopy"/>
+    <testcase name="Verify branch list deatails " time="0.187" classname="HrmCopy"/>
+    <testcase name="Response property matches environment variable" time="0.187" classname="HrmCopy"/>
+    <testcase name="Content-Type header is application/json" time="0.187" classname="HrmCopy"/>
+    <testcase name="The responce has all properties" time="0.187" classname="HrmCopy"/>
+    <testcase name="Schema is valid" time="0.187" classname="HrmCopy"/>
+  </testsuite>
+  <testsuite name="http://122.255.63.41/hrm/branch/156" id="e8653568-9e19-4c20-a37d-4a0aa23e117b" timestamp="2022-03-22T11:51:53.703Z" tests="7" failures="0" errors="0" time="0.207">
+    <testcase name="Status code is 200" time="0.207" classname="HrmCopy"/>
+    <testcase name="Validate user details through pass using API" time="0.207" classname="HrmCopy"/>
+    <testcase name="Verify branch details" time="0.207" classname="HrmCopy"/>
+    <testcase name="Schema is valid" time="0.207" classname="HrmCopy"/>
+    <testcase name="Verify branch employee details" time="0.207" classname="HrmCopy"/>
+    <testcase name="Response property matches environment variable" time="0.207" classname="HrmCopy"/>
+    <testcase name="The responce has all properties" time="0.207" classname="HrmCopy"/>
+  </testsuite>
+  <testsuite name="http://122.255.63.41/hrm/regionaloffice/list" id="fdb2adbf-beec-4d12-8a55-d7cbbe9795d9" timestamp="2022-03-22T11:51:53.703Z" tests="7" failures="0" errors="0" time="0.070">
+    <testcase name="Status code is 200" time="0.070" classname="HrmCopy"/>
+    <testcase name="Validate user details through pass using API" time="0.070" classname="HrmCopy"/>
+    <testcase name="Verify regional office  details " time="0.070" classname="HrmCopy"/>
+    <testcase name="validate description status " time="0.070" classname="HrmCopy"/>
+    <testcase name="Response property matches environment variable" time="0.070" classname="HrmCopy"/>
+    <testcase name="The responce has all properties" time="0.070" classname="HrmCopy"/>
+    <testcase name="Schema is valid" time="0.070" classname="HrmCopy"/>
+  </testsuite>
+  <testsuite name="http://122.255.63.41/hrm/regionaloffice/id/{id}" id="a8f77e95-937d-4478-86c7-5428a94941f4" timestamp="2022-03-22T11:51:53.703Z" tests="7" failures="0" errors="0" time="0.221">
+    <testcase name="Status code is 200" time="0.221" classname="HrmCopy"/>
+    <testcase name="Validate user details through pass using API" time="0.221" classname="HrmCopy"/>
+    <testcase name="view regional details " time="0.221" classname="HrmCopy"/>
+    <testcase name="Verify description status" time="0.221" classname="HrmCopy"/>
+    <testcase name="Response property matches environment variable" time="0.221" classname="HrmCopy"/>
+    <testcase name="The responce has all properties" time="0.221" classname="HrmCopy"/>
+    <testcase name="Schema is valid" time="0.221" classname="HrmCopy"/>
+  </testsuite>
+  <testsuite name="http://122.255.63.41/hrm/corporate" id="b22e8222-ffe2-45c5-a9ba-2a75f42b71f7" timestamp="2022-03-22T11:51:53.703Z" tests="7" failures="0" errors="0" time="0.643">
+    <testcase name="Status code is 200" time="0.643" classname="HrmCopy"/>
+    <testcase name="Validate user details through pass using API" time="0.643" classname="HrmCopy"/>
+    <testcase name="Validate co-operate details " time="0.643" classname="HrmCopy"/>
+    <testcase name="Validate AGM details " time="0.643" classname="HrmCopy"/>
+    <testcase name="Check data accuracy using Description" time="0.643" classname="HrmCopy"/>
+    <testcase name="Response property matches environment variable" time="0.643" classname="HrmCopy"/>
+    <testcase name="The responce has all properties" time="0.643" classname="HrmCopy"/>
+  </testsuite>
+  <testsuite name="http://122.255.63.41/hrm/employee/id/(empID)" id="58e543bb-9db6-4cc7-927b-6ebf1c8a6e3b" timestamp="2022-03-22T11:51:53.703Z" tests="6" failures="0" errors="0" time="0.093">
+    <testcase name="Status code is 200" time="0.093" classname="HrmCopy"/>
+    <testcase name="Validate user details through pass using API" time="0.093" classname="HrmCopy"/>
+    <testcase name="Check data accuracy using Description" time="0.093" classname="HrmCopy"/>
+    <testcase name="Response property matches environment variable" time="0.093" classname="HrmCopy"/>
+    <testcase name="The responce has all properties" time="0.093" classname="HrmCopy"/>
+    <testcase name="Schema is valid" time="0.093" classname="HrmCopy"/>
+  </testsuite>
+  <testsuite name="{domain}/hrm/specialLocation/list&#xA;" id="3c35c1ce-e106-4533-84f1-e1f836c18da5" timestamp="2022-03-22T11:51:53.703Z" tests="0" failures="0" errors="0" time="0.101"/>
+  <testsuite name="http://122.255.63.41/hrm/exchangeOffice/list" id="7a27e238-2f76-4d39-804d-d7a8952a5347" timestamp="2022-03-22T11:51:53.703Z" tests="7" failures="0" errors="0" time="0.077">
+    <testcase name="Status code is 200" time="0.077" classname="HrmCopy"/>
+    <testcase name="Validate user details through pass using API" time="0.077" classname="HrmCopy"/>
+    <testcase name="Validate office list details" time="0.077" classname="HrmCopy"/>
+    <testcase name="Verify discription status " time="0.077" classname="HrmCopy"/>
+    <testcase name="Response property matches environment variable" time="0.077" classname="HrmCopy"/>
+    <testcase name="The responce has all properties" time="0.077" classname="HrmCopy"/>
+    <testcase name="Schema is valid" time="0.077" classname="HrmCopy"/>
+  </testsuite>
+  <testsuite name="{domain}/hrm/employee/profile/info/{employeeId}" id="f496ced3-83fb-479c-a9c3-bff9c02934e0" timestamp="2022-03-22T11:51:53.703Z" tests="5" failures="0" errors="0" time="0.083">
+    <testcase name="Status code is 200" time="0.083" classname="HrmCopy"/>
+    <testcase name="Validate user details through pass using API" time="0.083" classname="HrmCopy"/>
+    <testcase name="Response property matches environment variable" time="0.083" classname="HrmCopy"/>
+    <testcase name="The responce has all properties" time="0.083" classname="HrmCopy"/>
+    <testcase name="Schema is valid" time="0.083" classname="HrmCopy"/>
+  </testsuite>
+  <testsuite name="http://122.255.63.41/hrm/exchangeOffice/id/68" id="cb6c5cce-2b8c-428a-b8fb-4905a5e9191f" timestamp="2022-03-22T11:51:53.703Z" tests="3" failures="0" errors="0" time="0.086">
+    <testcase name="Status code is 200" time="0.086" classname="HrmCopy"/>
+    <testcase name="Response time is less than 200ms" time="0.086" classname="HrmCopy"/>
+    <testcase name="Schema is valid" time="0.086" classname="HrmCopy"/>
+  </testsuite>
+  <testsuite name="/hrm/employee/img/{empId}" id="05c90ae6-49ca-4900-95e2-4d9499db87cb" timestamp="2022-03-22T11:51:53.703Z" tests="2" failures="1" errors="0" time="1.801">
+    <testcase name="Status code is 200" time="1.801" classname="HrmCopy"/>
+    <testcase name="Response time is less than 200ms" time="1.801" classname="HrmCopy">
+      <failure type="AssertionFailure" message="expected 1801 to be below 200">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 8922a976-666a-4f02-820a-37b0030c49ec.]]>
+        <![CDATA[Collection name: HRM Copy.]]>
+        <![CDATA[Request name: /hrm/employee/img/{empId}.]]>
+        <![CDATA[Test description: Response time is less than 200ms.]]>
+        <![CDATA[Error message: expected 1801 to be below 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 1801 to be below 200
+   at Object.eval sandbox-script.js:2:17).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="{domain}/hrm/product/list" id="cbde07b4-a9e0-4f95-b600-02c35cb9b293" timestamp="2022-03-22T11:51:53.703Z" tests="6" failures="1" errors="0" time="0.765">
+    <testcase name="Status code is 200" time="0.765" classname="HrmCopy"/>
+    <testcase name="Validate user details through pass using API" time="0.765" classname="HrmCopy"/>
+    <testcase name="Response time is less than 200ms" time="0.765" classname="HrmCopy">
+      <failure type="AssertionFailure" message="expected 765 to be below 200">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 8922a976-666a-4f02-820a-37b0030c49ec.]]>
+        <![CDATA[Collection name: HRM Copy.]]>
+        <![CDATA[Request name: {domain}/hrm/product/list.]]>
+        <![CDATA[Test description: Response time is less than 200ms.]]>
+        <![CDATA[Error message: expected 765 to be below 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 765 to be below 200
+   at Object.eval sandbox-script.js:3:18).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response property matches environment variable" time="0.765" classname="HrmCopy"/>
+    <testcase name="The responce has all properties" time="0.765" classname="HrmCopy"/>
+  </testsuite>
+  <testsuite name="{domain}/hrm/employee/img/byte/07034" id="c7c6138a-27a7-40c2-9b54-609e6937837e" timestamp="2022-03-22T11:51:53.703Z" tests="2" failures="1" errors="0" time="0.662">
+    <testcase name="Status code is 200" time="0.662" classname="HrmCopy"/>
+    <testcase name="Response time is less than 200ms" time="0.662" classname="HrmCopy">
+      <failure type="AssertionFailure" message="expected 662 to be below 200">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 8922a976-666a-4f02-820a-37b0030c49ec.]]>
+        <![CDATA[Collection name: HRM Copy.]]>
+        <![CDATA[Request name: {domain}/hrm/employee/img/byte/07034.]]>
+        <![CDATA[Test description: Response time is less than 200ms.]]>
+        <![CDATA[Error message: expected 662 to be below 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 662 to be below 200
+   at Object.eval sandbox-script.js:2:19).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="/hrm/hospitalization/medical/employee/id/{empId}" id="9e46002a-dba1-41c6-b933-24126d27d8a5" timestamp="2022-03-22T11:51:53.703Z" tests="6" failures="0" errors="0" time="0.703">
+    <testcase name="Status code is 200" time="0.703" classname="HrmCopy"/>
+    <testcase name="Validate user details through pass using API" time="0.703" classname="HrmCopy"/>
+    <testcase name="Validate hospitalization details" time="0.703" classname="HrmCopy"/>
+    <testcase name="Response property matches environment variable" time="0.703" classname="HrmCopy"/>
+    <testcase name="The responce has all properties" time="0.703" classname="HrmCopy"/>
+    <testcase name="Schema is valid" time="0.703" classname="HrmCopy"/>
+  </testsuite>
+  <testsuite name=" /hrm/expenditure/hospitalization/employee/id/" id="4e012fe3-edf1-417c-b189-b06090123c29" timestamp="2022-03-22T11:51:53.703Z" tests="7" failures="0" errors="0" time="1.464">
+    <testcase name="Status code is 200" time="1.464" classname="HrmCopy"/>
+    <testcase name="Validate user details through pass using API" time="1.464" classname="HrmCopy"/>
+    <testcase name="Verify description status " time="1.464" classname="HrmCopy"/>
+    <testcase name="Validate hospitalization details" time="1.464" classname="HrmCopy"/>
+    <testcase name="Response property matches environment variable" time="1.464" classname="HrmCopy"/>
+    <testcase name="The responce has all properties" time="1.464" classname="HrmCopy"/>
+    <testcase name="Schema is valid" time="1.464" classname="HrmCopy"/>
+  </testsuite>
+  <testsuite name="/hrm/allowance/spect/employee/id/" id="8afadc13-1d24-4078-a3d7-32c45347b2f9" timestamp="2022-03-22T11:51:53.703Z" tests="6" failures="0" errors="0" time="0.965">
+    <testcase name="Status code is 200" time="0.965" classname="HrmCopy"/>
+    <testcase name="Validate user details through pass using API" time="0.965" classname="HrmCopy"/>
+    <testcase name="Validate allownace details LKR07341" time="0.965" classname="HrmCopy"/>
+    <testcase name="Response property matches environment variable" time="0.965" classname="HrmCopy"/>
+    <testcase name="The responce has all properties" time="0.965" classname="HrmCopy"/>
+    <testcase name="Schema is valid" time="0.965" classname="HrmCopy"/>
+  </testsuite>
+  <testsuite name="/hrm/allowance /dental/employee/id/LK07341" id="bb7e0dd8-cacd-43cb-91b5-240d0bdf996c" timestamp="2022-03-22T11:51:53.703Z" tests="6" failures="0" errors="0" time="3.936">
+    <testcase name="Status code is 200" time="3.936" classname="HrmCopy"/>
+    <testcase name="Validate user details through pass using API" time="3.936" classname="HrmCopy"/>
+    <testcase name="Validate dental imformation in LKR07341" time="3.936" classname="HrmCopy"/>
+    <testcase name="Response property matches environment variable" time="3.936" classname="HrmCopy"/>
+    <testcase name="The responce has all properties" time="3.936" classname="HrmCopy"/>
+    <testcase name="Schema is valid" time="3.936" classname="HrmCopy"/>
+  </testsuite>
+  <testsuite name="/hrm/employee/profile/info/{employeeId}" id="f3f97c34-2c58-46c6-82bb-90646986d8d7" timestamp="2022-03-22T11:51:53.703Z" tests="6" failures="0" errors="0" time="0.115">
+    <testcase name="Status code is 200" time="0.115" classname="HrmCopy"/>
+    <testcase name="Validate user details through pass using API" time="0.115" classname="HrmCopy"/>
+    <testcase name="Validate profile information in LK04564" time="0.115" classname="HrmCopy"/>
+    <testcase name="Response property matches environment variable" time="0.115" classname="HrmCopy"/>
+    <testcase name="The responce has all properties" time="0.115" classname="HrmCopy"/>
+    <testcase name="Schema is valid" time="0.115" classname="HrmCopy"/>
+  </testsuite>
+  <testsuite name=" http://122.255.63.41/hrm/benefits/loans/LK07341" id="84df09bc-b2f6-4342-9c3e-960a262f5c00" timestamp="2022-03-22T11:51:53.703Z" tests="6" failures="0" errors="0" time="0.137">
+    <testcase name="Status code is 200" time="0.137" classname="HrmCopy"/>
+    <testcase name="Validate user details through pass using API" time="0.137" classname="HrmCopy"/>
+    <testcase name="Validate LK07341 benifit " time="0.137" classname="HrmCopy"/>
+    <testcase name="Response property matches environment variable" time="0.137" classname="HrmCopy"/>
+    <testcase name="The responce has all properties" time="0.137" classname="HrmCopy"/>
+    <testcase name="Schema is valid" time="0.137" classname="HrmCopy"/>
+  </testsuite>
+  <testsuite name="/hrm/employee/perquisites/{empId}" id="5307dce4-ad37-4233-80c3-9b14b0bab6b7" timestamp="2022-03-22T11:51:53.703Z" tests="2" failures="0" errors="0" time="0.079">
+    <testcase name="Status code is 200" time="0.079" classname="HrmCopy"/>
+    <testcase name="Response time is less than 200ms" time="0.079" classname="HrmCopy"/>
+  </testsuite>
+  <testsuite name=" /hrm/basic/designation/LK02713" id="d8e79bc3-4af0-407d-acfc-4fadd3bda1ec" timestamp="2022-03-22T11:51:53.703Z" tests="7" failures="0" errors="0" time="0.075">
+    <testcase name="Status code is 200" time="0.075" classname="HrmCopy"/>
+    <testcase name="Validate user details through pass using API" time="0.075" classname="HrmCopy"/>
+    <testcase name="Verify LK02713 designation details " time="0.075" classname="HrmCopy"/>
+    <testcase name="Verify description status" time="0.075" classname="HrmCopy"/>
+    <testcase name="Response property matches environment variable" time="0.075" classname="HrmCopy"/>
+    <testcase name="Content-Type header is application/json" time="0.075" classname="HrmCopy"/>
+    <testcase name="Schema is valid" time="0.075" classname="HrmCopy"/>
+  </testsuite>
+  <testsuite name=" /hrm/basic/designation/LK02713 Copy" id="6821c73c-b886-4157-af38-ae03d315cf54" timestamp="2022-03-22T11:51:53.703Z" tests="8" failures="0" errors="0" time="0.095">
+    <testcase name="Status code is 200" time="0.095" classname="HrmCopy"/>
+    <testcase name="Validate user details through pass using API" time="0.095" classname="HrmCopy"/>
+    <testcase name="Verify description status" time="0.095" classname="HrmCopy"/>
+    <testcase name="The responce has all properties" time="0.095" classname="HrmCopy"/>
+    <testcase name="Check given environment is HRM" time="0.095" classname="HrmCopy"/>
+    <testcase name="Response property matches environment variable" time="0.095" classname="HrmCopy"/>
+    <testcase name="Content-Type header is application/json" time="0.095" classname="HrmCopy"/>
+    <testcase name="Schema is valid" time="0.095" classname="HrmCopy"/>
+  </testsuite>
+</testsuites>
